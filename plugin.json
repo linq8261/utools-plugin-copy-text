@@ -1,0 +1,21 @@
+{
+	"pluginName": "复制纯文本",
+	"description": "复制纯文本，不带任何格式。",
+	"logo": "img/logo.png",
+	"preload": "preload.js",
+	"version": "1.0.0",
+	"author": "林泉",
+	"homepage": "https://www.jianshu.com/u/d62037f3ab47",
+	"features": [{
+		"code": "copy_text",
+		"explain": "复制纯文本",
+		"cmds": [{
+			"type": "regex",
+			"label": "复制纯文本",
+			"match": "/(.*)/"
+		}]
+	}],
+	"pluginSetting": {
+		"single": true
+	}
+}
